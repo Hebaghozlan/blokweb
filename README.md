@@ -44,7 +44,7 @@ Hier zie je de homepagina van de website
 <img src="images/pagina1.png" width="375px" alt="home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Een inventaris pagina 
-<img src="images/pagina2.png" width="375px" alt="inventory page">
+Een betaal pagina
+<img src="images/pagina2.png" width="375px" alt="payment">
  
 </details>
