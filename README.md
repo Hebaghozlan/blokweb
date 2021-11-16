@@ -41,10 +41,10 @@ Ik ga de website het tesla auto namaken omdat ik het ontwerp, kleuren en interac
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Hier zie je de homepagina van de website  
-<img src="images/pagina1.png" width="375px" alt="home page">
+<img src="images/svg-pagina1.png" width="375px" alt="home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Een betaal pagina
-<img src="images/pagina2.png" width="375px" alt="payment">
+<img src="images/svg-pagina2.png" width="375px" alt="payment">
  
 </details>
