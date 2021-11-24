@@ -58,7 +58,7 @@ Een account pagina
 <img src="images/breakpointschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
-<img src="images/breakpointschets2.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakpointschets2.png" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
