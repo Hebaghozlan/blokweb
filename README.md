@@ -44,7 +44,7 @@ Hier zie je de homepagina van de website
 <img src="images/pagina1.png" width="375px" alt="home page">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Een betaal pagina
+Een account pagina
 <img src="images/pagina2.png" width="375px" alt="account">
 
 </details>
@@ -55,10 +55,10 @@ Een betaal pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakpointschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/breakpointschets2.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 </details>
 
