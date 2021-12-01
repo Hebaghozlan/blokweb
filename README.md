@@ -55,7 +55,7 @@ Een account pagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina:
-<img src="images/breakpointschets.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/breakpointschets.jpg.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
 <img src="images/breakpointschets2.png" width="375px" alt="breakdown van een dynamisch deel">
@@ -72,17 +72,45 @@ Een account pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Positioneren vind ik een beetje moeilijk nog en ik weet nog steeds niet hoe linear-gradient werkt! Hoe kun je een kleur toepassen enz.
+Positioneren vind ik nog steeds een beetje moeilijk en ik weet niet hoe ik beginnen moet om een hamburgermenutje te bouwen!
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1      | student 2          |
+| Maily          | Eva                |
+|hoe moet je e-  |Javascript doet niet|
+|en lange foto - |op github, hoe kan  |
+|op github uplou-|dat opgelost worden!|
+|den!            |                    |
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- punt 1: Grote foto's zouden niet toonbaar zijn op github, daarom moet de foto kleiner worden, dat kan met photoshop!
+- punt 2: Er waren wat errors bij javascript op github, Eva ging googlen hoe deze opgelost kunnen worden!
+- punt 3: Ik had probleem met het positioneren van een paar items, het is opgelost door te weten wat ik neer moet zetten bij mijn parent en child items bijvoorbeel: (position: relative; <!!--voor container--> en position: absolute; <!!--voor items-->
+
+</details>
+
+## Voortgang 2 (week 3)
+
+<details>
+<summary>uitwerken voor 2e voortgang</summary>
+
+### Stand van zaken
+Ik wil mijn linkjes anders stijlen en ik heb geprobeerd om first-of-type, nth-of-type enz te gebruiken maar als ik het doe, alles gaat kapot!
+<img src="images/probleem1.png" width="375px" alt="linkjes">
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+| student 1      | student 2          |
+| Maily          | Eva                |
+| dit bespreken  | en dit             |
+| en dat ook nog | dit als er tijd is |
+| ...            | ...                |
 
 
 ### Verslag van meeting
