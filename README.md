@@ -106,11 +106,70 @@ Ik wil mijn linkjes anders stijlen en ik heb geprobeerd om first-of-type, nth-of
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          |
-| Maily          | Eva                |
-| dit bespreken  | en dit             |
-| en dat ook nog | dit als er tijd is |
-| ...            | ...                |
+Voor dit gesprek had Maily de vraag van hoe ze elk regel tekst ander kleur kan geven.
+
+
+### Verslag van meeting
+hier na afloop snel de uitkomsten van de meeting vastleggen
+
+- punt 1: Het eerste probleem kan opgelost worden met een span-tag voor het woord die je een ander kleur voor wilt geven.
+- punt 2: Verder heb ik samen met de studentassistenten gekeken naar hoe ik de files op nette manier op github kan uploaden.
+- punt 3: Omdat ik voor a-tag een position absolute heb gegeven en als ik elk a anders vormgeef, gaan ze eigenlijk op elkaar! Om dat te oplossen, moest ik twee keer voor ieder a positions-metingen van top, right en left op schrijven.
+
+
+</details>
+## Toegankelijkheidstest (week 4)
+
+<details>
+<summary>uitwerken na test in 8e voortgang</summary>
+
+### Bevindingen
+Lijst met je bevindingen die in de test naar voren kwamen:
+
+#### Blur
+Met een bril die de tekst blurry maakt, kon ik nog wel zien dat er tekst en fotos te zien is maar kan niet weten wat voor foto's en tekst die dan zijn. Niets is leesbaar en je weet niet waar je moet klikken.
+
+Hierbij kunnen de buttons andere vorm hebben zodat de gebruiker met zulke beperking, kan weten dat hij erop kan klikken. Dat kan bijvoorbeeld door een grotere veelgekleurde buttons te maken!
+
+#### Motoriek
+Met die motorapparatje, kon ik nog steeds mijn website bediennen met een muis. Het ging wel moeilijker maar kon nog steeds doorheen scrollen en op een menu klikken!
+
+Om makkelijker op het menu te klikken, kan ik de menu groter maken zodat misklikken op iets anders voorgekomen wordt, dat geldt ook voor alle menuitems; lijst van de navigatie!
+
+#### Contrast
+Met een bril die het kleuren van je website verandert, kon ik alles nog goed zien en weten waar ik op moet klikken en waar ik iets moet opschrijven!
+
+Het gebruik van donkere kleuren op een lichte achtergrond en het omgekeerd daarvan, helpt mensen om dingen duidelijk te lezen!
+
+
+#### Screenreader
+Mijn website werd helemaal goed voorgelezen. Het begon met mijn h1 (logo die een img-tag heeft) naar de navigatie dan de sections en eindgt bij footer.
+
+Voor mensen die wel kunnen zien en een screenreader moeten gebruiken, moet ik een focus state hebben voor interactie elemneten, zodat ze met een tap-key door mijn website kunnen maar ook kunnen ze weten wat ze de screenreader gaat voorlezen!
+
+</details>
+
+
+
+
+
+## Voortgang 3 (week 4)
+
+<details>
+<summary>uitwerken voor 3e voortgang</summary>
+
+### Stand van zaken
+Over de tap-key
+
+
+### Agenda voor meeting
+samen met je groepje opstellen
+
+| student 1      | student 2          | student 3    | student 4        |
+| ---            | ---                | ---          | ---              |
+| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
+| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
