@@ -19,6 +19,9 @@
   --third-text-color: #2E2F34;
   --focus-border-color: #696969;
   --focus-shadow-color: #888888;
+  --input-background-color: #F5F5F5;
+  --account-background-color: 	#FFFFFF;
+  --button-background-color: #3D69E1;
 }
 
 /**ALGEMENE STIJL**/
@@ -27,14 +30,30 @@ body {
   background-color:var(--main-background-color);
 }
 
+/**TOEGANGELIJK MENU SKIP**/
+body > a {
+  background:var(--second-background-color);
+  color:var(--main-text-color);
+  z-index:200;
+  height:50px;
+  padding:8px;
+  position:absolute;
+  transform:translateY(-100%);
+  transition: 1s ease;
+}
+body > a:focus {
+  transform:translateY(0);
+}
+
+/**LOGO + MENU ALGEMEEN**/
 header {
   padding: .5em .75em;
-  background-color:var(--main-background-color);
   display: flex;
   position: sticky;
   top: 0px;
   z-index: 100;
 }
+
 /**ALLE LINKJES**/
 a {
   text-decoration: none;
@@ -89,6 +108,7 @@ nav.toonMenu ul {
 nav ul li {
   text-align: center;
   padding: 12px 16px;
+  transform: rotatey(-180deg);
 }
 nav ul li a {
   color: var(--main-text-color);
@@ -167,20 +187,56 @@ section h3 a {
 }
 
 /**ACCOUNT PAGINA**/
-form {
-  display: flex;
-  max-width: 200px;
-  margin: 0 auto;
-  flex-wrap: wrap;
-  flex-direction: column;
+.account {
+  background-color:var(--account-background-color);
 }
-form label {
-  display: block;
+.button {
+  background-color: inherit;
+}
+.accountheading {
+  position: static;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 45px;
+}
+
+/**FORMULIER STIJLING**/
+form {
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 270px;
+}
+label {
+  margin-left: 25px;
 }
 input {
- border: none;
- background-color:var(--second-background-color);
- margin-bottom: 15px;
+  margin-left: 15px;
+  width: 90%;
+  padding: .8em;
+  border: none;
+  border-radius: 35px;
+  background-color:var(--input-background-color);
+  margin-bottom: 15px;
+}
+input:nth-last-of-type(2){
+  color:var(--account-background-color);
+  font-weight: bolder;
+  background-color:var(--button-background-color);
+}
+input:last-of-type{
+  color: black;
+  font-weight: bolder;
+  background-color:var(--account-background-color);
+  border: 3px solid var(--main-text-color);
+}
+input:focus {
+  border: 5px solid var(--focus-border-color);
+  box-shadow: 5px 10px var(--focus-shadow-color);
+}
+p {
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
 }
 
 /**FOOTER STIJL**/
