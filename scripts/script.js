@@ -7,33 +7,29 @@ function toggleMenu(event) {
   deNav.classList.toggle("toonMenu");
 }
 
+//ELEMENTEN DIE JE WILT LATEN FADEN!
 const allAnimationItems = document.querySelectorAll('.animatie')
 
-// de opties -
-// rootMargin: vanaf welk punt hij gaat checken, dus als deze op 20px staat moet hij eerst sowieso 20px in beeld zijn
-// threshold: hoeveel van het item moet in beeld zijn om het event te triggeren
+//DE OPTIES
 const options = {
     rootMargin: "20px",
     threshold: 0.5
 }
 
-// de callback functie is de functie die uitgevoerd wordt wanneer het element in of uit beeld gaat
+//ELEMENT GAAT IN OF UIT HET BEELD?
 function callbackFunction(entries) {
-    // loop over alle elementen
+    //DOOR ALLE ELEMENTEN HEENLOPEN
     entries.forEach(entry => {
-        // check of het element in beeld is
-        if (entry.intersectionRatio > 0) {
-          //voeg de class toe wanneer deze in beeld is
+        //IS HET ELEMENT IN BEELD?
+        if (entry.isIntersecting) {
+          //DAN VOEG CLASS TOE
             entry.target.classList.add('fade')
         }
     })
 }
 
-// maak de observer aan en geef deze de callback functie mee en de opties
 const observer = new IntersectionObserver(callbackFunction, options)
 
-//loop over alle elementen heen die je wilt laten observeren
 allAnimationItems.forEach(item => {
-    //observeer het element
     observer.observe(item)
 })

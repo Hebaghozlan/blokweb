@@ -89,6 +89,7 @@ section {
   margin-top: 10px;
 }
 
+/**SECTION ON SCROLL FADE**//
 .animatie {
   opacity: 0;
   transition: opacity 1s ease-in;
