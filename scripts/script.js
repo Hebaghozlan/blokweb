@@ -7,8 +7,10 @@ function toggleMenu(event) {
   deNav.classList.toggle("toonMenu");
 }
 
+//CREDIT VAN DEZE CODE NAAR SAM SLOTEMAKER
+
 //ELEMENTEN DIE JE WILT LATEN FADEN!
-const allAnimationItems = document.querySelectorAll('.animatie')
+const allSections = document.querySelectorAll('.animatie')
 
 //DE OPTIES
 const options = {
@@ -30,6 +32,6 @@ function callbackFunction(entries) {
 
 const observer = new IntersectionObserver(callbackFunction, options)
 
-allAnimationItems.forEach(item => {
+allSections.forEach(item => {
     observer.observe(item)
 })
