@@ -22,15 +22,50 @@
   </header>
   <main>
     <section>
-      <h2 class="accountheading">Sign In</h2>
+      <h2 class="accountheading">Create Account</h2>
       <form action="index.html">
-        <label>Email Address</label>
+        <label for="country">Select Market</label>
+          <select name="country">
+            <option value="Australia">Australia</option>
+            <option value="Brazil">Brazil</option>
+            <option value="Canada">Canada</option>
+            <option value="Germany">Germany</option>
+            <option value="Japan">Japan</option>
+            <option value="The Netherlands">The Netherlands</option>
+          </select>
+        <label for="language">Select Language</label>
+          <select name="language">
+            <option value="English">English</option>
+            <option value="Portuguese">Portuguese</option>
+            <option value="German">German</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Dutch">Dutch</option>
+          </select>
+        <label for="first name">First Name</label>
+        <input type="text" name="first name">
+        <label for="last name">Last Name</label>
+        <input type="text" name="last name">
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday">
+        <label for="gender">Gender</label>
+        <input type="radio" id="radio1" name="gender" value="male">Male</label>
+        <input type="radio" id="radio2" name="gender" value="female">Female</label>
+        <input type="radio" id="radio3" name="gender" value="others">Others</label>
+        <div class="input">
+          <input type="text" name="" value="" id="inputField">
+        </div>
+        <label for="email">Email Address</label>
         <input type="email" name="email">
-        <label>Password</label>
+        <label for="password">Password</label>
         <input type="password" name="password">
-        <input type="submit" name="Sign In" value="SIGN IN">
-        <p>OR</p>
+        <p>By Creating a Tesla Account, I understand and agree to Tesla's Privacy Notice and Terms of Use</p>
+        <input type="checkbox" name="checkbox">
+        <img id="image" src="images/code.png" alt="code">
+        <label for="code">Enter the characters in the picture</label>
+        <input type="text" name="code">
         <input type="submit" name="Create Account" value="CREATE ACCOUNT">
+        <p>OR</p>
+        <input type="submit" name="Sign In" value="SIGN IN">
       </form>
     </section>
   </main>

@@ -22,6 +22,8 @@
   --input-background-color: #F5F5F5;
   --account-background-color: 	#FFFFFF;
   --button-background-color: #3D69E1;
+  --valid-color: #176e17;
+  --invalid-color: #FF0000;
 }
 
 /**ALGEMENE STIJL**/
@@ -58,7 +60,7 @@ header {
 a {
   text-decoration: none;
 }
-a:focus{
+a:focus {
   border: 5px solid var(--focus-border-color);
   box-shadow: 5px 10px var(--focus-shadow-color);
 }
@@ -145,7 +147,7 @@ section > a {
   left: 0;
   z-index: 10;
 }
-section > a:nth-last-of-type(2){
+section > a:nth-last-of-type(2) {
   background-color: var(--third-text-color);
   color: var(--second-background-color);
   border-radius: 50px;
@@ -191,7 +193,7 @@ section h3 a {
   background-color:var(--account-background-color);
 }
 .button {
-  background-color: inherit;
+  background-color: var(--account-background-color);
 }
 .accountheading {
   position: static;
@@ -207,7 +209,16 @@ form {
   margin-bottom: 270px;
 }
 label {
-  margin-left: 25px;
+  margin-left: 15px;
+}
+select {
+  margin-left: 15px;
+  width: 90%;
+  padding: .8em;
+  border: none;
+  border-radius: 35px;
+  background-color:var(--input-background-color);
+  margin-bottom: 15px;
 }
 input {
   margin-left: 15px;
@@ -217,26 +228,74 @@ input {
   border-radius: 35px;
   background-color:var(--input-background-color);
   margin-bottom: 15px;
+  transition: 2s;
 }
-input:nth-last-of-type(2){
+
+/*RADIO BUTTONS*/
+input:nth-of-type(4), input:nth-of-type(5), input:nth-of-type(6) {
+  width: 16px;
+  height: 16px;
+  position: inherit;
+}
+
+/*SUBMIT INPUTS*/
+input:nth-last-of-type(2) {
   color:var(--account-background-color);
   font-weight: bolder;
   background-color:var(--button-background-color);
+  margin-top: 15px;
 }
-input:last-of-type{
+input:last-of-type {
   color: black;
   font-weight: bolder;
   background-color:var(--account-background-color);
   border: 3px solid var(--main-text-color);
 }
+
+/*CHECKBOX*/
+input:nth-last-of-type(4) {
+  margin-bottom: 35px;
+  border: none;
+}
+
 input:focus {
   border: 5px solid var(--focus-border-color);
   box-shadow: 5px 10px var(--focus-shadow-color);
 }
+
+/**EMAIL ADDRES STYLING**/
+input:nth-last-of-type(6):invalid {
+  border-color: var(--invalid-color);
+}
+input:nth-last-of-type(6):valid {
+  border-color: var(--valid-color);
+}
+
+/*FOCUS RADIO BUTTONS & CHECKBOX*/
+input:nth-of-type(4), input:nth-of-type(5), input:nth-of-type(6), input:nth-last-of-type(4):focus {
+  border: none;
+  box-shadow: none;
+}
+
+/**INPUT VELD VAN OTHERS**/
+.input {
+	display: none;
+}
+.visible {
+	display: block;
+}
+
+form img {
+  margin-left: 45px;
+  width: 290px;
+}
 p {
   text-align: center;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+p:first-of-type {
+  margin-bottom: 0;
 }
 
 /**FOOTER STIJL**/
