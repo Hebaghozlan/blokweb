@@ -212,4 +212,5 @@ hier screenshot(s) van je eindresultaat
 2. bron 2: Hamburger Menu<a= href= "https://codepen.io/shooft/pen/zYzEPgv?editors=0110">
 3. bron 3: Scroll Animatie <a= herf= "https://codepen.io/SamSloot/pen/MWEYwOB">
 4. bron 4: Light Theme Inspiratie <a= herf= "https://codepen.io/shooft/pen/qBjKYjJ">
+5. bron 5. Foto <a= herf= "https://resn.co.nz/">
 </details>
