@@ -9,6 +9,42 @@
   padding: 0;
 }
 
+/**ALGEMENE CUSTOM PROPERTIES**/
+:root {
+/**DARK THEME**/
+  --main-background-color: #D0D9E8;
+  --second-background-color: #CED2DD;
+  --main-text-color: #3B3E45;
+  --second-text-color: #5B5F67;
+  --third-text-color: #2E2F34;
+  --focus-border-color: #696969;
+  --focus-shadow-color: #888888;
+  --input-background-color: #F5F5F5;
+  --account-background-color: #FFFFFF;
+  --button-background-color: #3D69E1;
+  --valid-color: #176e17;
+  --invalid-color: #FF0000;
+  --media-screen-color: #000000;
+}
+
+@media (prefers-color-scheme:light) {
+  :root:not(.darkMode) {
+/**LIGHT THEME**/
+  --main-background-color: #CED2DD;
+  --second-background-color: #D0D9E8;
+  --main-text-color: #2E2F34;
+  --second-text-color: #3B3E45;
+  --third-text-color: #5B5F67;
+  --focus-border-color: #888888;
+  --focus-shadow-color: #696969;
+  --input-background-color: #FFFFFF;
+  --account-background-color: #CED2DD;
+  --button-background-color: #3D69E1;
+  --valid-color: #176e17;
+  --invalid-color: #FF0000;
+  --media-screen-color: #000000;
+  }
+}
 
 /**ALGEMENE STIJL**/
 body {
