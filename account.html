@@ -8,6 +8,7 @@
 </head>
 
 <body class="account">
+
   <header>
     <h1> <a href="index.html"> <img src="images/logo1.png" alt="logo"> </a> </h1>
     <nav>
@@ -25,7 +26,7 @@
       <h2 class="accountheading">Create Account</h2>
       <form action="index.html">
         <label for="country">Select Market</label>
-          <select name="country">
+          <select name="country" id="country">
             <option value="Australia">Australia</option>
             <option value="Brazil">Brazil</option>
             <option value="Canada">Canada</option>
@@ -34,51 +35,52 @@
             <option value="The Netherlands">The Netherlands</option>
           </select>
         <label for="language">Select Language</label>
-          <select name="language">
+          <select name="language" id="language">
             <option value="English">English</option>
             <option value="Portuguese">Portuguese</option>
             <option value="German">German</option>
             <option value="Japanese">Japanese</option>
             <option value="Dutch">Dutch</option>
           </select>
-        <label for="first name">First Name</label>
-        <input type="text" name="first name">
-        <label for="last name">Last Name</label>
-        <input type="text" name="last name">
+        <label for="first_name">First Name</label>
+        <input type="text" name="first_name" id="first_name">
+        <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" id="last_name">
         <label for="birthday">Birthday</label>
-        <input type="date" name="birthday">
+        <input type="date" name="birthday" id="birthday">
         <label for="gender">Gender</label>
-        <input type="radio" id="radio1" name="gender" value="male">Male</label>
-        <input type="radio" id="radio2" name="gender" value="female">Female</label>
-        <input type="radio" id="radio3" name="gender" value="others">Others</label>
+        <input type="radio" id="radio1" name="gender" value="male">Male
+        <input type="radio" id="radio2" name="gender" value="female">Female
+        <input type="radio" id="radio3" name="gender" value="others">Others
         <div class="input">
-          <input type="text" name="" value="" id="inputField">
+          <input type="text" name="others" value="" id="inputField">
         </div>
         <label for="email">Email Address</label>
-        <input type="email" name="email">
+        <input type="email" name="email" id="email">
         <label for="password">Password</label>
-        <input type="password" name="password">
+        <input type="password" name="password" id="password">
         <p>By Creating a Tesla Account, I understand and agree to Tesla's Privacy Notice and Terms of Use</p>
         <input type="checkbox" name="checkbox">
         <img id="image" src="images/code.png" alt="code">
         <label for="code">Enter the characters in the picture</label>
-        <input type="text" name="code">
+        <input type="text" name="code" id="code">
         <input type="submit" name="Create Account" value="CREATE ACCOUNT">
         <p>OR</p>
         <input type="submit" name="Sign In" value="SIGN IN">
       </form>
     </section>
   </main>
+
+  <footer>
+    <ul>
+      <li><a href="index.html">Tesla © 2021</a></li>
+      <li><a href="index.html">Contact</a></li>
+      <li><a href="index.html">News</a></li>
+    </ul>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+
 </body>
-
-
-    <footer>
-      <ul>
-        <li><a href="index.html">Tesla © 2021</a></li>
-        <li><a href="index.html">Contact</a></li>
-        <li><a href="index.html">News</a></li>
-      </ul>
-    </footer>
-    <script src="scripts/script.js"></script>
 
 </html>

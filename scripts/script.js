@@ -53,7 +53,7 @@ radio3.addEventListener("click", function(){
     input.classList.add("visible")
 })
 
-// zZIET WANNEER RADIO1 EN RADIO 2 ZIJN GESELECTEERD
+// ZIET WANNEER RADIO1 EN RADIO 2 ZIJN GESELECTEERD
 radio2.addEventListener("click", function(){
     input.classList.remove("visible")
 })
@@ -62,16 +62,18 @@ radio1.addEventListener("click", function(){
 })
 
 // REFRESH PAGINA, KRIJG JE EEN ANDER PLAATJE
+//ROEP ALLE IMAGES DIE JE WILT LATE RANDOMIZEN
 var images = [
     "images/code.png",
     "images/code1.png",
     "images/code2.png",
     "images/code3.png"]
 
+//REKEN WELKE RANDOM IMG AAN HET BEURT IS
+var x = Math.floor(Math.random() * images.length);
 
+//RANDOM IMG FUNCTIE
 function randImg() {
-    var size = images.length
-    var x = Math.floor(size * Math.random())
     document.getElementById('image').src = images[x];
 }
 
