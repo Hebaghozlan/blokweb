@@ -176,14 +176,20 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 </details>
 
 
-## Eindgesprek (week 5)
+## Herkansing (21 Januari 2022)
 
 <details>
-<summary>uitwerken voor eindgesprek</summary>
+<summary>uitwerken voor herkansing eindgesprek</summary>
 
 ### Stand van zaken
 Aan het eind, alles ging goed maar ik moest bijna huilen voor een functie die niet meer werkte omdat ik bij css commentaar heb extra / toegevoegd!
-<img src="images/css.png" width="375px" alt="css frustratie">
+<img src="images/css.png" width="375px" alt="">
+
+Ik heb een leuk plaatje toegevoegd als je meer dan 390px je scherm vergroot, ik heb het zelf gedaan en ben trots erop!
+<img src="images/trots.png" width="375px" alt="">
+
+Ik heb een paar functies toegevoegd zoals een inputveld die invisible is maar als je erop een radiobutton klikt, komt hij te zien.
+<img src="images/input.png" width="375px" alt="">
 
 ### Screenshot(s)
 
@@ -202,7 +208,8 @@ hier screenshot(s) van je eindresultaat
 <details open>
 <summary>continu bijhouden terwijl je werkt</summary>
 
-1. bron 1: Hele Site<a= href= "https://tesla.com">
+1. bron 1: Site<a= href= "https://tesla.com">
 2. bron 2: Hamburger Menu<a= href= "https://codepen.io/shooft/pen/zYzEPgv?editors=0110">
 3. bron 3: Scroll Animatie <a= herf= "https://codepen.io/SamSloot/pen/MWEYwOB">
+4. bron 4: Light Theme Inspiratie <a= herf= "https://codepen.io/shooft/pen/qBjKYjJ">
 </details>
