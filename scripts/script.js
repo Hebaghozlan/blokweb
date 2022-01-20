@@ -60,3 +60,21 @@ radio2.addEventListener("click", function(){
 radio1.addEventListener("click", function(){
     input.classList.remove("visible");
 });
+
+// REFRESH PAGINA, KRIJG JE EEN ANDER PLAATJE
+//ROEP ALLE IMAGES DIE JE WILT LATE RANDOMIZEN
+var images = [
+    "images/code.png",
+    "images/code1.png",
+    "images/code2.png",
+    "images/code3.png"];
+
+//REKEN WELKE RANDOM IMG AAN HET BEURT IS
+var x = Math.floor(Math.random() * images.length);
+
+//RANDOM IMG FUNCTIE
+function randImg() {
+    document.getElementById('image').src = images[x];
+}
+
+randImg();
